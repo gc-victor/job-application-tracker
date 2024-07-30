@@ -1,0 +1,44 @@
+[server]
+url = "http://localhost:3000"
+
+[structure]
+functions_folder = "src"
+migrations_folder = "migrations"
+
+[esbuild]
+"loader:.html" = "text"
+"loader:.svg" = "text"
+
+[task]
+clean = ".query/tasks/clean.sh &"
+deploy = ".query/tasks/deploy.sh &"
+bundle = ".query/tasks/bundle.sh &"
+tailwind = "node_modules/.bin/tailwindcss -i ./src/pages/styles.css -o ./dist/styles.css"
+
+[task.create]
+migration = "node_modules/.bin/query task migration -y &"
+deploy = ".query/tasks/deploy.sh &"
+
+[task.dev]
+bundle = ".query/tasks/bundle.sh & node_modules/.bin/tailwindcss -i ./src/pages/styles.css -o ./dist/styles.css &"
+
+[task.migration]
+# admin_user_session
+20240116141458 = "node_modules/.bin/query migration admin_user_session.sql migrations/admin_user_session.sql/20240116141458-admin_user_session-up.sql && echo 20240116141458-admin_user_session-up.sql"
+# create token
+20240117102230 = "node_modules/.bin/query migration query_config.sql migrations/post.sql/20240117102230-create-token-up.sql && echo 20240117102230-create-token-up.sql"
+20240603154730 = "node_modules/.bin/query migration query_config.sql migrations/job_application_tracker.sql/20240603154730-create-token-up.sql && echo 20240603154730-create-token-up.sql"
+# post
+20240117102216 = "node_modules/.bin/query migration post.sql migrations/post.sql/20240117102216-post-up.sql && echo 20240117102216-post-up.sql"
+# job_application_tracker
+20240607071711 = "node_modules/.bin/query migration job_application_tracker.sql migrations/job_application_tracker.sql/20240607071711-status-tracker-up.sql && echo 20240607071711-status-tracker-up.sql"
+20240607071713 = "node_modules/.bin/query migration job_application_tracker.sql migrations/job_application_tracker.sql/20240607071713-job-application-up.sql && echo 20240607071713-job-application-up.sql"
+
+## Install hurl (https://hurl.dev/docs/installation.html)
+[task.hurl]
+all = "hurl --test --continue-on-error --variables-file hurl/.env hurl/**/**/*.hurl"
+admin = "hurl --test --continue-on-error --variables-file hurl/.env hurl/api/admin/*.hurl"
+admin_login = "hurl --test --continue-on-error --variables-file hurl/.env hurl/api/admin/login.hurl"
+admin_logout = "hurl --test --continue-on-error --variables-file hurl/.env hurl/api/admin/logout.hurl"
+jat = "hurl --test --continue-on-error --variables-file hurl/.env hurl/api/jat/*.hurl hurl/api/jat/**/**/*.hurl"
+jat_applications = "hurl --test --continue-on-error --variables-file hurl/.env hurl/api/jat/*.hurl"
