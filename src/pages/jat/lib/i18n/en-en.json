@@ -1,0 +1,158 @@
+{
+    "page": {
+        "applications": {
+            "header": "List of job applications",
+            "title": "Job Applications",
+            "filterSearchPlaceholder": "Filter by position or company or location ...",
+            "filterSearchLabel": "Filter by column"
+        },
+        "add": {
+            "pageTitle": "New Job Application"
+        },
+        "edit": {
+            "pageTitle": "Edit Job Application"
+        }
+    },
+    "applicationForm": {
+        "appliedStatusLabel": "Applied",
+        "companyLegend": "Company",
+        "companyNameLabel": "Name",
+        "companyNameLegend": "Company",
+        "companyNameMenu": "Company",
+        "companyNamePlaceholder": "Query Co.",
+        "companyWebsiteLabel": "Website",
+        "companyWebsitePlaceholder": "https://qery.io",
+        "contractJobTypeLabel": "Contract",
+        "documentsLabel": "Documents",
+        "documentsMenu": "Documents",
+        "freelanceJobTypeLabel": "Freelance",
+        "fullTimeJobTypeLabel": "Full-Time",
+        "hybridWorkplaceLabel": "Hybrid",
+        "internshipJobTypeLabel": "Internship",
+        "interviewStatusLabel": "Interview",
+        "jobTypeLegend": "Job Type",
+        "jobTypeMenu": "Job Type",
+        "locationLabel": "Location",
+        "locationMenu": "Location",
+        "locationPlaceholder": "City or State or Country or ...",
+        "max": "Max",
+        "min": "Min",
+        "newApplicationLegend": "New Job Application",
+        "notesLegend": "Note",
+        "notesCommentLabel": "Comment",
+        "notesCommentPlaceholder": "Write your note here ...",
+        "notesTitleLabel": "Title",
+        "notesTitlePlaceholder": "Write your note title here ...",
+        "notesMenu": "Note",
+        "offerReceivedStatusLabel": "Offer Received",
+        "jobLinkLabel": "Offer URL",
+        "offerUrlMenu": "Offer URL",
+        "jobLinkPlaceholder": "https://qery.io/carrer/staff-software-engineer",
+        "officeWorkplaceLabel": "Office",
+        "partTimeJobTypelLabel": "Part-Time",
+        "notAppliedStatusLabel": "Not Applied",
+        "positionLabel": "Position",
+        "positionMenu": "Position",
+        "positionPlaceholder": "Staff Software Engineer",
+        "queryCo": "Query Co.",
+        "queryIo": "query.io",
+        "rejectedStatusLabel": "Rejected",
+        "remoteWorkplaceLabel": "Remote",
+        "salaryRangeLegend": "Salary Range",
+        "salaryRangeMaxLabel": "Max",
+        "salaryRangeMaxPlaceholder": "100k",
+        "salaryRangeMenu": "Salary Range",
+        "salaryRangeMinLabel": "Min",
+        "salaryRangeMinPlaceholder": "80k",
+        "statusLabel": "Status",
+        "statusMenu": "Status",
+        "tagsLabel": "Tags",
+        "tagsMenu": "Tags",
+        "tagsPlaceholder": "JavaScript, Preact, Rust",
+        "tagsDescription": "Add the tags separated by comma.",
+        "workplaceMenu": "Workplace",
+        "workplaceLegend": "Workplace"
+    },
+    "global": {
+        "application": {
+            "status": {
+                "applied": "Applied",
+                "interview": "Interview",
+                "offer": "Offer Received",
+                "rejected": "Rejected",
+                "saved": "Saved"
+            }
+        },
+        "buttons": {
+            "cancel": "Cancel",
+            "save": "Save",
+            "edit": "Edit"
+        },
+        "domain": {
+            "appliedTitle": "Applied",
+            "companyTitle": "Company",
+            "documentsTitle": "Documents",
+            "freelanceTitle": "Freelance",
+            "fullTimeTitle": "Full-Time",
+            "hybridTitle": "Hybrid",
+            "internshipTitle": "Internship",
+            "interviewTitle": "Interview",
+            "jobApplicationTrackerTitle": "Job Application Tracker",
+            "jobTypeTitle": "Job Type",
+            "locationTitle": "Location",
+            "notAppliedTitle": "Not Applied",
+            "notesTitle": "Notes",
+            "offerReceivedTitle": "Offer Received",
+            "offerURLTitle": "Offer URL",
+            "officeTitle": "Office",
+            "partTimeTitle": "Part-Time",
+            "positionTitle": "Position",
+            "rejectedTitle": "Rejected",
+            "remoteTitle": "Remote",
+            "salaryRangeTitle": "Salary Range",
+            "statusTitle": "Status",
+            "tagsTitle": "Tags",
+            "workplaceTitle": "Workplace"
+        },
+        "layout": {
+            "header": {
+                "applicationsMenu": "Job Applications",
+                "logoTitle": "Job Application Tracker",
+                "addApplicationMenu": "Add Application"
+            }
+        },
+        "offer": {
+            "actions": {
+                "delete": "Delete",
+                "edit": "Edit",
+                "save": "Save",
+                "title": "Actions"
+            },
+            "companyName": "Company",
+            "jobType": "Job Type",
+            "link": "Link",
+            "location": "Location",
+            "salaryRange": "Salary",
+            "workplace": "Workplace"
+        },
+        "jobType": {
+            "contract": "Contract",
+            "freelance": "Freelance",
+            "full_time": "Full-Time",
+            "internship": "Internship",
+            "part_time": "Part-Time"
+        },
+        "status": {
+            "not_applied": "Not Applied",
+            "applied": "Applied",
+            "interview": "Interview",
+            "offer_received": "Offer Received",
+            "rejected": "Rejected"
+        },
+        "workplace": {
+            "hybrid": "Hybrid",
+            "office": "Office",
+            "remote": "Remote"
+        }
+    }
+}
