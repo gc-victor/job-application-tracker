@@ -10,7 +10,7 @@
         "create": "query task create -y"
     },
     "dependencies": {
-        "preact": "~10.23.1",
+        "preact": "~10.23.2",
         "preact-render-to-string": "~6.5.9",
         "valibot": "~0.37.0"
     },
