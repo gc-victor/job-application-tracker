@@ -30,8 +30,13 @@ npx @qery/query create https://github.com/gc-victor/job-application-tracker
 
 ![Edit Job Application](docs/2024-08-01%2010.09.07-e855d2162543.png)
 
-## References
+## Links
 
-- [Query Website](https://qery.io)
-- [Query - GitHub](https://github.com/gc-victor/query)
-- [Job Application Tracker  - GitHub](https://github.com/gc-victor/job-application-tracker)
+- Homepage: <https://qery.io>
+- Docs: <https://qery.io/docs>
+- GitHub: <https://github.com/gc-victor/query>
+- Discord: <https://discord.gg/pXmHqTXv>
+
+## License
+
+Licensed under the [MIT License](LICENSE).
