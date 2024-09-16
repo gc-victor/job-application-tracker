@@ -5,7 +5,7 @@ import { getNameHashed } from "@/lib/server/get-bundle-files";
 import { render } from "@/lib/server/render";
 import { HotReload } from "@/pages/hot-reload/hot-reload";
 import { SVG } from "@/pages/admin/components/svg";
-import { Body, Head } from '@/pages/admin/layouts/template';
+import { Body, Head } from "@/pages/admin/layouts/template";
 import { LoginView } from "./login.view";
 
 export async function handleRequest(req: Request): Promise<Response> {

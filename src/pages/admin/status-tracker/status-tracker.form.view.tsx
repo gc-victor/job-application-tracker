@@ -17,7 +17,14 @@ export function StatusTrackerFormView() {
             </div>
             <fieldset class="max-h-svh -mb-40 overflow-y-auto pb-40 px-6 space-y-6" tabindex={-1}>
                 <Legend>Status Tracker</Legend>
-                <Input id="job_application_id" label="Job Application Id" type="number" step="any" aria-required="true" placeholder="Write a job_application_id here..." />
+                <Input
+                    id="job_application_id"
+                    label="Job Application Id"
+                    type="number"
+                    step="any"
+                    aria-required="true"
+                    placeholder="Write a job_application_id here..."
+                />
                 <Input id="status" label="Status" aria-required="true" placeholder="Write a status here..." />
             </fieldset>
             <div class="absolute bg-white bottom-0 flex h-20 items-center justify-between px-6 w-full">

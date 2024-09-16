@@ -12,5 +12,5 @@ export const StatusTrackerUpdateValidation = object({
 });
 
 export const StatusTrackerDeleteValidation = object({
-    uuid: string([uuid()])
+    uuid: string([uuid()]),
 });

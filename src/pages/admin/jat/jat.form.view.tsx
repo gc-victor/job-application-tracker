@@ -7,7 +7,13 @@ import { ID_FORM_COMPONENT } from "@/pages/admin/lib/constants";
 
 export function JobApplicationFormView() {
     return (
-        <form is="form-element" id={ID_FORM_COMPONENT} class="h-full pt-6 w-full" method="dialog" data-path={API_ADMIN_JOB_APPLICATION_PATH}>
+        <form
+            is="form-element"
+            id={ID_FORM_COMPONENT}
+            class="h-full pt-6 w-full"
+            method="dialog"
+            data-path={API_ADMIN_JOB_APPLICATION_PATH}
+        >
             <div class="absolute right-4 text-3xl top-4">
                 <Button variant="transparent" type="reset">
                     <span class="block px-3 py-1">

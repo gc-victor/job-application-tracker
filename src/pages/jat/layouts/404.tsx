@@ -1,4 +1,4 @@
-import { Button } from '@/pages/jat/components/button';
+import { Button } from "@/pages/jat/components/button";
 
 export function Html404({ link }: { link: string }) {
     return (
